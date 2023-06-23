@@ -79,7 +79,7 @@ export default function Home() {
                       Get Free Estimate
                       <span class="default-btn-arrow">
                         <img
-                          src="./assets/Icons/ArrowUpRight.png"
+                          src="../assets/Icons/ArrowUpRight.png"
                           alt="Arrow"
                         />
                       </span>
@@ -129,6 +129,68 @@ export default function Home() {
                     Lorem Ipsum is simply dummy text of the typesetting
                     industry. Ipsum has been.
                   </p>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div className="row">
+                <img src="../assets/Logos/1.png" alt="Brand logo" />
+                <img src="../assets/Logos/2.png" alt="Brand logo" />
+                <img src="../assets/Logos/3.png" alt="Brand logo" />
+                <img src="../assets/Logos/4.png" alt="Brand logo" />
+                <img src="../assets/Logos/5.png" alt="Brand logo" />
+              </div>
+            </section>
+            <section>
+              <h2>Follow Our Projects</h2>
+              <p>
+                It is a long established fact that a reader will be distrated by
+                the readable content of the page, looking at its layouts.
+              </p>
+              <div className="row">
+                <div className="col">
+                  <img
+                    src="../assets/Images/Homepage3.png"
+                    alt="Interior design"
+                  />
+                  <div className="home-gallery-details">
+                    <h4>Modern Kitchen</h4>
+                    <p>Decor / Architecture</p>
+                    <img src="../assets/Icons/Next.png" alt="Arrow icon" />
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src="../assets/Images/Homepage4.png"
+                    alt="Interior design"
+                  />
+                  <div className="home-gallery-details">
+                    <h4>Modern Kitchen</h4>
+                    <p>Decor / Architecture</p>
+                    <img src="../assets/Icons/Next.png" alt="Arrow icon" />
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src="../assets/Images/Homepage5.png"
+                    alt="Interior design"
+                  />
+                  <div className="home-gallery-details">
+                    <h4>Modern Kitchen</h4>
+                    <p>Decor / Architecture</p>
+                    <img src="../assets/Icons/Next.png" alt="Arrow icon" />
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src="../assets/Images/Homepage6.png"
+                    alt="Interior design"
+                  />
+                  <div className="home-gallery-details">
+                    <h4>Modern Kitchen</h4>
+                    <p>Decor / Architecture</p>
+                    <img src="../assets/Icons/Next.png" alt="Arrow icon" />
+                  </div>
                 </div>
               </div>
             </section>
