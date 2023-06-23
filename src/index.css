@@ -57,6 +57,10 @@ p {
   width: 224px;
 }
 
+.color-btn-arrow {
+  color: var(--secondary-color);
+}
+
 .large-btn {
   background: var(--secondary-color);
   width: 287px;
@@ -64,4 +68,16 @@ p {
 
 .hero {
   background-image: url("./assets/Images/Hero.png");
+}
+
+.join-container {
+  background: var(--secondary-color);
+  border-radius: 70px;
+  height: 1200px;
+  height: 374px;
+  padding: 80px 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
