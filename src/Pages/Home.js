@@ -1,4 +1,5 @@
 import React from "react";
+import Join from "../Components/JoinInterno";
 
 export default function Home() {
   return (
@@ -280,6 +281,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
+            <Join />
           </main>
         </div>
       </div>
