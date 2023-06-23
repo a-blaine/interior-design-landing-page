@@ -194,6 +194,92 @@ export default function Home() {
                 </div>
               </div>
             </section>
+            <section>
+              <div className="row">
+                <span>
+                  <h3>12</h3>
+                  <p>Years of Experience</p>
+                </span>{" "}
+                |{" "}
+                <span>
+                  <h3>85</h3>
+                  <p>Successful Projects</p>
+                </span>{" "}
+                |{" "}
+                <span>
+                  <h3>15</h3>
+                  <p>Active Projects</p>
+                </span>{" "}
+                |{" "}
+                <span>
+                  <h3>95</h3>
+                  <p>Happy Customers</p>
+                </span>
+              </div>
+            </section>
+            <section>
+              <div className="section-header">
+                <h2>Articles & News</h2>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layouts.
+                </p>
+              </div>
+              <div className="row">
+                <div className="col">
+                  <div className="card">
+                    <img
+                      src="../assets/Images/Homepage3.png"
+                      alt="Interior design"
+                    />
+                    <div className="category-tile">Kitchen Design</div>
+                    <div className="card-contents">
+                      <h5>
+                        Let's Get Solutions For Building Construction Work
+                      </h5>
+                      <div className="card-footer">
+                        <p>26 December, 2022</p>
+                        <img src="../assets/Icons/Next.png" alt="Arrow icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="card">
+                    <img
+                      src="../assets/Images/Homepage3.png"
+                      alt="Interior design"
+                    />
+                    <div className="category-tile">Living Design</div>
+                    <div className="card-contents">
+                      <h5>
+                        Low Cost Latest Invented Interior Designing Ideas.
+                      </h5>
+                      <div className="card-footer">
+                        <p>22 December, 2022</p>
+                        <img src="../assets/Icons/Next.png" alt="Arrow icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="card">
+                    <img
+                      src="../assets/Images/Homepage3.png"
+                      alt="Interior design"
+                    />
+                    <div className="category-tile">Interior Design</div>
+                    <div className="card-contents">
+                      <h5>Best For Any Office & Business Interior Solution</h5>
+                      <div className="card-footer">
+                        <p>16 December, 2022</p>
+                        <img src="../assets/Icons/Next.png" alt="Arrow icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
