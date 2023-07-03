@@ -1,4 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faFacebook,
+  faLinkedIn,
+  faInstagram,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -11,7 +18,12 @@ export default function Footer() {
               It is a long established fact that a reader will be distracted
               easily.
             </p>
-            <div className="social-icons"></div>
+            <div className="social-icons">
+              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faLinkedIn} />
+              <FontAwesomeIcon icon={faInstagram} />
+            </div>
           </div>
           <div className="col">
             <h5>Pages</h5>
