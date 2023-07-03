@@ -19,10 +19,13 @@ export default function Footer() {
               easily.
             </p>
             <div className="social-icons">
-              <FontAwesomeIcon icon={faFacebook} />
-              <FontAwesomeIcon icon={faTwitter} />
-              <FontAwesomeIcon icon={faLinkedIn} />
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faFacebook} className="sns-icon" />
+
+              <FontAwesomeIcon icon={faTwitter} className="sns-icon" />
+
+              <FontAwesomeIcon icon={faLinkedIn} className="sns-icon" />
+
+              <FontAwesomeIcon icon={faInstagram} className="sns-icon" />
             </div>
           </div>
           <div className="col">
